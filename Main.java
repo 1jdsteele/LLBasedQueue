@@ -5,7 +5,17 @@ public class Main {
 
 
         
-        System.out.println("Hello ma world");
+
+        Queue restaurantFireOrder = new Queue();
+        
+        restaurantFireOrder.enqueue("Cheeseburger Combo");
+        restaurantFireOrder.enqueue("Charcuterie Board");
+        restaurantFireOrder.enqueue("Beer Flight");
+
+        System.out.println(restaurantFireOrder.dequeue());
+        System.out.println(restaurantFireOrder.dequeue());
+        System.out.println(restaurantFireOrder.peek());
+
 
 
 
